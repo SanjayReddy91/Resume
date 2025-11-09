@@ -1,0 +1,156 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.55in}
+\addtolength{\evensidemargin}{-0.55in}
+\addtolength{\textwidth}{1.1in}
+\addtolength{\topmargin}{-0.55in}
+\addtolength{\textheight}{1.1in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-4pt}\item
+  \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small#3} & \textit{\small #4} \\
+  \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-4pt}\item
+  \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+  \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.1in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-4pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+\small % or \footnotesize to compress further
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Large \scshape Kodidela Sanjay Reddy} \\ \vspace{1pt}
+    \small \href{mailto:sanjayreddykodidelag15444@gmail.com}{\faEnvelope\ sanjayreddykodidelag15444@gmail.com} $|$
+    \small \faPhone\ +91-9154443106 $|$
+    \small \href{https://www.linkedin.com/in/sanjay-reddy-kodidela-824323209/}{\faLinkedin\ LinkedIn} $|$
+    \small \href{https://github.com/SanjayReddy91}{\faGithub\ GitHub}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+        {B.Tech., Computer Science and Eng.}{2020 -- 2024}
+        {NIT Rourkela}{CGPA: 8.29/10.0}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading
+        {Member of Technical Staff}{Jul 2024 -- Present}
+        {Oracle Corporation}{}
+        \resumeItemListStart
+            \resumeItem{Developed scalale REST APIs and microservices for Fleet Application Management System (FAMS) service in OCI using Java and Dropwizard framework.}
+            \resumeItem{Contributed to scalable backend services ensuring seamless integration and deployment within Oracle Cloud Infrastructure.}
+        \resumeItemListEnd
+
+    \resumeSubheading
+        {Software Engineer Intern}{May 2023 -- Jul 2023}
+        {Oracle Corporation}{}
+        \resumeItemListStart
+            \resumeItem{Built a lightweight agent in GoLang using gRPC and go-oci-sdk to automate client command execution on selected VMs in OCI.}
+            \resumeItem{Enabled efficient orchestration of remote VM tasks by designing and integrating a custom client-agent communication pipeline.}
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{Hybrid Battery for UAVs} $|$ \emph{C, Python}}{}
+    \resumeItemListStart
+      \resumeItem{Designed a hybrid battery-supercapacitor model to handle variable UAV workloads.}
+      \resumeItem{Implemented flight and energy simulation using C; analyzed parameters using Python libraries.}
+      \resumeItem{Enabled optimized power management for UAVs by determining ideal energy switching points.}
+    \resumeItemListEnd
+    \resumeProjectHeading
+    {\textbf{Fleet Agent} $|$ \emph{gRPC, GoLang, go-oci-sdk}}{}
+    \resumeItemListStart
+      \resumeItem{Built an automation agent to manage and encrypt commands for OCI VM instances.}
+      \resumeItem{Used GoLang, gRPC, and go-oci-sdk to automate command execution and artifact deployment.}
+      \resumeItem{Improved cloud operational efficiency by securely managing VM lifecycle tasks.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------TECHNICAL PROFILES-----------
+\section{Technical Profiles}
+\begin{flushleft}
+    \small
+    \textbf{\texttt{</>}} \href{https://github.com/SanjayReddy91}{GitHub} \quad
+    \textbf{\texttt{</>}} \href{https://www.linkedin.com/in/sanjay-reddy-kodidela-824323209/}{LinkedIn}
+\end{flushleft}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.1in, label={}]
+    \small{\item{
+        \textbf{Languages}{: Java, C, C++, Go, JavaScript, HTML} \\
+        \textbf{Technologies}{: Dropwizard, gRPC, go-oci-sdk} \\
+        \textbf{Databases}{: Oracle DBMS} \\
+        \textbf{Courses}{: Data Structures, OS, Networks, ML, Cloud Computing} \\
+        \textbf{OS}{: Windows, Linux, macOS}
+    }}
+\end{itemize}
+
+%-----------ACHIEVEMENTS---------------
+\section{Achievements}
+\resumeSubHeadingListStart
+    \resumeItemListStart
+        \resumeItem{OCI Architect Associate Certification, 2025.}
+        \resumeItem{OCI Generative AI Professional Certification, 2025.}
+        \resumeItem{OCI Foundations Associate Certification, 2025.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\end{document}
